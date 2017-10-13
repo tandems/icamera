@@ -10,8 +10,9 @@
 		5560E04AC7078A470FFB6BA0 /* Pods_icamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D0CEC702C16FA8E4552D16 /* Pods_icamera.framework */; };
 		955A805E418144F7EB47B94A /* Pods_icameraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2A15909227A4BFDF79A7A6 /* Pods_icameraUITests.framework */; };
 		9838ADF8F3A388C1055B7B28 /* Pods_icameraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD98C74DC13B4ACE275C99 /* Pods_icameraTests.framework */; };
+		E53176851F9085CC00626C56 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53176841F9085CC00626C56 /* CameraViewController.swift */; };
+		E53176881F9085F200626C56 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53176871F9085F200626C56 /* CameraView.xib */; };
 		E57360C01F8FABD4000A8889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57360BF1F8FABD4000A8889 /* AppDelegate.swift */; };
-		E57360C21F8FABD4000A8889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57360C11F8FABD4000A8889 /* ViewController.swift */; };
 		E57360C51F8FABD4000A8889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57360C31F8FABD4000A8889 /* Main.storyboard */; };
 		E57360C71F8FABD4000A8889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57360C61F8FABD4000A8889 /* Assets.xcassets */; };
 		E57360CA1F8FABD4000A8889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57360C81F8FABD4000A8889 /* LaunchScreen.storyboard */; };
@@ -44,9 +45,10 @@
 		8F36E3BB23C988DD663DCAA9 /* Pods-icameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-icameraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-icameraTests/Pods-icameraTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C2A15909227A4BFDF79A7A6 /* Pods_icameraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icameraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D0CEC702C16FA8E4552D16 /* Pods_icamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_icamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53176841F9085CC00626C56 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E53176871F9085F200626C56 /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
 		E57360BC1F8FABD4000A8889 /* icamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57360BF1F8FABD4000A8889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E57360C11F8FABD4000A8889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E57360C41F8FABD4000A8889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E57360C61F8FABD4000A8889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E57360C91F8FABD4000A8889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,9 +114,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E53176861F9085DA00626C56 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				E53176871F9085F200626C56 /* CameraView.xib */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
 		E56856751F90833E00A1942D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E53176841F9085CC00626C56 /* CameraViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 		E56856771F90835D00A1942D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E53176861F9085DA00626C56 /* CameraView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +174,6 @@
 				E56856761F90834E00A1942D /* Models */,
 				E56856751F90833E00A1942D /* Controllers */,
 				E57360BF1F8FABD4000A8889 /* AppDelegate.swift */,
-				E57360C11F8FABD4000A8889 /* ViewController.swift */,
 				E57360C31F8FABD4000A8889 /* Main.storyboard */,
 				E57360C61F8FABD4000A8889 /* Assets.xcassets */,
 				E57360C81F8FABD4000A8889 /* LaunchScreen.storyboard */,
@@ -308,6 +319,7 @@
 				E57360CA1F8FABD4000A8889 /* LaunchScreen.storyboard in Resources */,
 				E57360C71F8FABD4000A8889 /* Assets.xcassets in Resources */,
 				E57360C51F8FABD4000A8889 /* Main.storyboard in Resources */,
+				E53176881F9085F200626C56 /* CameraView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,8 +491,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E57360C21F8FABD4000A8889 /* ViewController.swift in Sources */,
 				E57360C01F8FABD4000A8889 /* AppDelegate.swift in Sources */,
+				E53176851F9085CC00626C56 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
