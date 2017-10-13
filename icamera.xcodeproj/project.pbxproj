@@ -112,6 +112,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E56856751F90833E00A1942D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E56856761F90834E00A1942D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E56856771F90835D00A1942D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E57360B31F8FABD4000A8889 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +158,9 @@
 		E57360BE1F8FABD4000A8889 /* icamera */ = {
 			isa = PBXGroup;
 			children = (
+				E56856771F90835D00A1942D /* Views */,
+				E56856761F90834E00A1942D /* Models */,
+				E56856751F90833E00A1942D /* Controllers */,
 				E57360BF1F8FABD4000A8889 /* AppDelegate.swift */,
 				E57360C11F8FABD4000A8889 /* ViewController.swift */,
 				E57360C31F8FABD4000A8889 /* Main.storyboard */,
@@ -707,6 +731,7 @@
 				E57360E61F8FABD4000A8889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57360E71F8FABD4000A8889 /* Build configuration list for PBXNativeTarget "icameraTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +740,7 @@
 				E57360E91F8FABD4000A8889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E57360EA1F8FABD4000A8889 /* Build configuration list for PBXNativeTarget "icameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +749,7 @@
 				E57360EC1F8FABD4000A8889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
